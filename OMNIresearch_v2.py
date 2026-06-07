@@ -212,7 +212,7 @@ real_results_df = pd.DataFrame(real_results)
 # RANDOMIZATION TEST 1
 # Circularly shift earthquake daily counts
 # -----------------------------
-n_random = 10000   # use 10 while debugging, then 10000 or 100000
+n_random = 100000   # use 10 while debugging, then 10000 or 100000
 rng = np.random.default_rng(12345)
 
 random_results = []
